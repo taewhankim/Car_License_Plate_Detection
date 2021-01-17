@@ -10,7 +10,7 @@
 
 ### Method
 * tesseract-ocr-w64-setup-v5 압축을 풀고 설치
-* ![링크](https://github.com/tesseract-ocr/tessdata/blob/master/kor.traineddata) 에서 **kor.traineddata** 다운로드
+* [Tesseract](https://github.com/tesseract-ocr/tessdata/blob/master/kor.traineddata) 에서 **kor.traineddata** 다운로드
 * 다운로드 된 **kor.traineddata** 파일을 C:/Program Files/Tesseract-OCR/tessdata 폴더로 이동
 
 
