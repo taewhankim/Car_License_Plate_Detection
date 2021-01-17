@@ -17,14 +17,18 @@
 ### Workflow
 
 ![adaptive threshold](https://user-images.githubusercontent.com/71427403/104856159-4f731880-5954-11eb-8eca-61a9fbb5d331.png)
-   
+#
    
 1. ```GaussianBlurf``` 를 통해 노이즈를 삭제 후 Contour 형성을 위한 Binary Image 형식 변환   
-#
-#
+
+
+
+
+
+
 
 ![contour](https://user-images.githubusercontent.com/71427403/104856160-4f731880-5954-11eb-8042-ea1de75d5aa9.png)   
-#
+
 #
 2. ```findContours```, ```drawContours``` 로 Contour 시각화   
    
