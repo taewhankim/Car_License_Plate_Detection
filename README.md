@@ -56,15 +56,34 @@
 ![dddw](https://user-images.githubusercontent.com/71427403/104856162-500baf00-5954-11eb-8d76-799f5b65eb99.png)    
     
     
-5. 기울기 조정과 tesseract를 통한 번호판 추출    
+5. 기울기 조정과 노이즈 제거 및 패딩 적용    
     
-        
+- ```GaussianBlur``` 노이즈 제거        
 - ```getRotationMatrix2D``` 추출    
 - ```getRotationMatrix2D``` 로 ```warpAffine``` 통한 이미지 회전    
 - ```getRectSubPix``` 회전된 이미지에서 조건에 따라 원하는 부분만 crop    
+- ```copyMakeBorder``` 이미지에 검은색 여백 추가
 
 #
 
-![캡처dddd](https://user-images.githubusercontent.com/71427403/104856928-86e3c400-5958-11eb-9083-a69a70fd522f.JPG)
+
+
+![sdfsdf](https://user-images.githubusercontent.com/71427403/104857246-6e74a900-595a-11eb-8d72-a6e80d9bddda.JPG)
+
+6. Tesseract 를 통한 번호판 인식   
+
+```python
+img_out = img_ori.copy()
+
+cv2.rectangle(img_out, pt1=(info['x'], info['y']), pt2=(info['x']+info['w'], info['y']+info['h']), color=(255,0,0), thickness=2)
+
+plt.imshow(img_out)
+plt.figure(figsize=(12, 10))
+plt.imshow(img_result, cmap='gray')
+print('차량 번호 :', chars)
+```
+
+---
+
 
 ----
