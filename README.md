@@ -16,17 +16,22 @@
 
 
 ![adaptive threshold](https://user-images.githubusercontent.com/71427403/104855672-5fd5c400-5951-11eb-9823-f0e680adbc67.png)
+
 1. Binary Image 형식으로 변환시킨다.
 
 ![contour](https://user-images.githubusercontent.com/71427403/104855838-80eae480-5952-11eb-8282-45b6018e1e81.png)
+
 2. Contour로 변환시킨다.
 
 ![박스로 변경](https://user-images.githubusercontent.com/71427403/104855840-85170200-5952-11eb-8365-692e5e075297.png)
+
 3. Contour로 나타낸 이미지를 rectangular 시킨다. 
 
 ![dddd](https://user-images.githubusercontent.com/71427403/104855931-e5a63f00-5952-11eb-9e71-717785ca0f43.png)
+
 4. 조건에 만족하는 Contour Box 만 추출
 
 ![dddw](https://user-images.githubusercontent.com/71427403/104855970-27cf8080-5953-11eb-9cd0-d0ca4e023d6f.png)
+
 5. 기울기 조정과 tesseract를 통해 번호판 추출
 
