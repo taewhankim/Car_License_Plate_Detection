@@ -20,12 +20,12 @@
    
    
 1. ```GaussianBlurf``` 를 통해 노이즈를 삭제 후 Contour 형성을 위한 Binary Image 형식 변환   
-#   
-#   
-#   
+#
+#
+
 ![contour](https://user-images.githubusercontent.com/71427403/104856160-4f731880-5954-11eb-8042-ea1de75d5aa9.png)   
-#   
-#    
+#
+#
 2. ```findContours```, ```drawContours``` 로 Contour 시각화   
    
    
@@ -40,8 +40,8 @@
 
 
 ![dddd](https://user-images.githubusercontent.com/71427403/104856161-500baf00-5954-11eb-80fb-a0dffc22348e.png)   
-#  
-#    
+#
+#
 4. 조건에 만족하는 Contour Box 만 추출     
 - 넓이가 최소 80 이상    
 - 최소 너비, 높이 = 2, 8    
