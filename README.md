@@ -14,6 +14,7 @@
 * 다운로드 된 **kor.traineddata** 파일을 C:/Program Files/Tesseract-OCR/tessdata 폴더로 이동
 
 
+### Workflow
 
 ![adaptive threshold](https://user-images.githubusercontent.com/71427403/104855672-5fd5c400-5951-11eb-9823-f0e680adbc67.png)
 
