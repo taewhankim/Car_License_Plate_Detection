@@ -63,4 +63,8 @@
 - ```getRotationMatrix2D``` 로 ```warpAffine``` 통한 이미지 회전    
 - ```getRectSubPix``` 회전된 이미지에서 조건에 따라 원하는 부분만 crop    
 
+#
+
+![캡처dddd](https://user-images.githubusercontent.com/71427403/104856928-86e3c400-5958-11eb-9083-a69a70fd522f.JPG)
+
 ----
