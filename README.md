@@ -43,16 +43,16 @@
 
 
 4. 조건에 만족하는 Contour Box 만 추출
-> 넓이가 최소 80 이상
-> 최소 너비, 높이 = 2, 8
-> 최소 비율, 최대 비율 = 0.25, 1
-> MAX_DIAG_MULTIPLYER = 대각선 길이의 배
-> MAX_ANGLE_DIFF = 두 Contour Box의 중심점 각도 차이
-> MAX_AREA_DIFF = 두 Contour Box의 면적 비율 차이
-> MAX_WIDTH_DIFF = 두 Contour Box의 너비 비율 차이
-> MAX_HEIGHT_DIFF = 두 Contour Box의 높이 비율 차이
-> MIN_N_MATCHED = 위 조건을 만족한 Contour Box의 개수
-> 조건에 맞는 Contour Box Index 지정
+> 넓이가 최소 80 이상    
+> 최소 너비, 높이 = 2, 8    
+> 최소 비율, 최대 비율 = 0.25, 1   
+> MAX_DIAG_MULTIPLYER = 대각선 길이의 배    
+> MAX_ANGLE_DIFF = 두 Contour Box의 중심점 각도 차이   
+> MAX_AREA_DIFF = 두 Contour Box의 면적 비율 차이   
+> MAX_WIDTH_DIFF = 두 Contour Box의 너비 비율 차이   
+> MAX_HEIGHT_DIFF = 두 Contour Box의 높이 비율 차이   
+> MIN_N_MATCHED = 위 조건을 만족한 Contour Box의 개수   
+> 조건에 맞는 Contour Box Index 지정   
 
 ![dddw](https://user-images.githubusercontent.com/71427403/104856162-500baf00-5954-11eb-8d76-799f5b65eb99.png)
 
