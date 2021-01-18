@@ -65,7 +65,8 @@
 - ```copyMakeBorder``` 이미지에 검은색 여백 추가
 
 #
-
+---
+## Result
 
 
 ![sdfsdf](https://user-images.githubusercontent.com/71427403/104857246-6e74a900-595a-11eb-8d72-a6e80d9bddda.JPG)
